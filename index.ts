@@ -2,15 +2,15 @@
 
 import inquirer from "inquirer";
 const cal = await inquirer.prompt([{
-    message: "Enter your first number",
+    message: "Enter your first number.",
     type: "number",
     name: "num1",
 },
-{message: "Enter your second number",
+{message: "Enter your second number.",
 type: "number",
 name: "num2",
 },{
-    message: "Select your operator",
+    message: "Select your operator.",
     type: "list",
 name: "operator",
 choices: ["Addition","Subtraction","Multiplication","Division","Percentage","Modulus"]},
